@@ -1,7 +1,8 @@
-
 [flake8]
-exlude =
+exlude = */settings.py,
     migrations,
     __pycache__,
     manage.py,
-    ./app/settings.py
+    
+
+ per-file-ignores  = app/settings.py:E501   
